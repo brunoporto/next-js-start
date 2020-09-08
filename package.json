@@ -1,11 +1,12 @@
 {
-  "name": "learn-starter",
+  "name": "project-start",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export -o html"
   },
   "dependencies": {
     "next": "9.3.5",
